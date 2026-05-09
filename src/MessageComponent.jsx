@@ -6,7 +6,7 @@ const MessageComponent = () => {
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
 
-  const API_URL = "http://deploy-test-production-bd08.up.railway.app:8080";
+  const API_URL = "http://deploy-test-production-bd08.up.railway.app";
 
   // Fetch all messages
   const fetchMessages = async () => {
